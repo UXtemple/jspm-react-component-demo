@@ -1,6 +1,8 @@
 import React from 'react';
+import Title from './title';
+
 export class HelloWorld extends React.Component {
   render() {
-    return <h1>Hello World</h1>;
+    return <Title>Hello World</Title>;
   }
 }

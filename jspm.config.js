@@ -33,6 +33,7 @@ SystemJS.config({
       "meta": {
         "*.js": {
           "babelOptions": {
+            "es2015": false,
             "plugins": [
               "babel-plugin-transform-react-jsx"
             ]
